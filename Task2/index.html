@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Store</title>
+</head>
+
+<body>
+    <h1>Welcome to Our Online Store</h1>
+
+    <form action="addToCart.php" method="post">
+        <label for="product">Select a Product:</label>
+        <select name="product">
+            <option value="product1">Product 1</option>
+            <option value="product2">Product 2</option>
+            
+        </select>
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" value="1" min="1">
+        <input type="submit" value="Add to Cart">
+    </form>
+
+    <a href="cart.php">View Cart</a>
+</body>
+
+</html>
